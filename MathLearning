@@ -1,0 +1,42 @@
+//Orville Keize's Lesson #1-6
+
+public class MathLearning {
+	
+	static int a = 10;
+	static int b = 15;
+	static int c = 22;
+	
+	static int counter = 0;
+
+	public static void main (String [] args) {
+		
+		int result;
+		int resultTwo;
+		int resultThree;
+		int resultFour;
+		int resultFive;
+		
+		result = a + b;
+		resultTwo = a - b;
+		resultThree = a * c;
+		resultFour = c / b;
+		resultFive = c % b;
+		
+		blahBlahBlah(result);
+		blahBlahBlah(resultTwo);
+		blahBlahBlah(resultThree);
+		blahBlahBlah(resultFour);
+		blahBlahBlah(resultFive);
+		
+		
+	}
+	
+	public static void blahBlahBlah(int output) {
+		
+		counter++;
+		
+		System.out.println("Result " + counter + " is " + output);
+	
+	}
+
+}
