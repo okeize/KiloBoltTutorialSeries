@@ -1,0 +1,11 @@
+//Orville Keize's Lesson #1-8
+
+import Java.util.Random;
+
+class Randomization {
+	public static void main(String[] args) {
+		
+		Random rand = new Random();
+		
+	}
+}
